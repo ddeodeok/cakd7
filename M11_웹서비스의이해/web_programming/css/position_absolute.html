@@ -1,0 +1,25 @@
+<!-- 3가지의 색이 다 겹쳐서 마지막 파랑색만 나옴( abolute 위치 고정) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width:100px; height: 100px;
+            position: absolute;
+        }
+        .box:nth-child(1) { background-color: red; z-index: 10;}
+        .box:nth-child(2) { background-color: green;z-index: 209;}
+        .box:nth-child(3) { background-color: blue;z-index: 5;}
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    
+</body>
+</html>

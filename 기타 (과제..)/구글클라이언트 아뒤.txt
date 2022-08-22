@@ -1,0 +1,6 @@
+<tr>,<th>,<td> 
+
+구글 클라이언트 ID
+372481883807-0ggbv9kpu4dloe2upka7b65kkrva1esd.apps.googleusercontent.com
+클라이언트 보안 비밀번호
+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

@@ -1,0 +1,40 @@
+<!-- 위치속성 공식 position 속성에 absolute 키워드 적용시 부모 태그 영역을 차지 하지 않음
+ width height 속성을 추가해 부모태그 영역 차지하게 만들수 잇다. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position_formulaBasic</title>
+    <style>
+        body > div {
+            width : 400px; height: 100px;
+            border: 3px solid black;
+            position: relative;
+        }
+        .box{
+            width:100px; height: 100px;
+            position: absolute;
+        }
+        .box:nth-child(1) { background-color: red;
+                            left:10px; top:10px;
+                            z-index:100;}
+        .box:nth-child(2) { background-color: green;
+                            left:50px; top:50px;
+                            z-index:10;}
+        .box:nth-child(3) { background-color: blue;
+                            left:90px; top:90px;
+                            z-index:1;}
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor amet</h1>
+    <div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h1>Lorem ipsum dolor amet</h1>
+</body>
+</html>

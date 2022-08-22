@@ -1,0 +1,47 @@
+<!-- 문서객체 추가하기 8가지 사례를 작성하여 출력하세요.419 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        // 이벤트 연결
+        $(document).ready(function(){
+            
+           
+            //문서 객체 생성
+                $('<h3>객체appendTo대상</h3>').css({
+                    backgroundColor: 'blue',
+                    color: 'red'
+                }).appendTo('div');
+                $('<h3>객체prependTo대상</h3>').css({
+                    backgroundColor: 'blue',
+                    color: 'white'
+                }).prependTo('div');
+                $('<h3>객체insertBefore대상</h3>').css({
+                    backgroundColor: 'blue',
+                    color: 'white'
+                }).insertBefore('div');
+                $('<h3>객체insertAfter대상</h3>').css({
+                    backgroundColor: 'blue',
+                    color: 'red'
+                }).insertAfter('div');
+                $('.target').prepend('<h3 style="background: green; color: white;">대상prepend객체</h3>');
+
+                $('.target').append('<h3 style="background: green; color: red;">대상append객체</h3>');
+
+                $('.target').before('<h3 style="background: green; color: white;">대상before객체</h3>');
+
+                $('.target').after('<h3 style="background: green; color: red;">대상after객체</h3>');
+                });
+
+    </script>
+</head>
+<body>
+    <div class='target' style="border: 1px solid black; width: 300px;height:300px;text-align: center;">대상</div>
+    
+</body>
+</html>

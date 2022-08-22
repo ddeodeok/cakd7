@@ -1,0 +1,2 @@
+-f
+C:\Users\admin\AppData\Roaming\jupyter\runtime\kernel-ef51b33e-cf3c-47e5-853c-aaa5d0cb0025.json

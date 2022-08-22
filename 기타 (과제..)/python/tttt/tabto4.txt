@@ -1,0 +1,13 @@
+import sys
+
+src = sys.argv[1]
+dst = sys.argv[2]
+
+with open(src,mode="r") as f:
+    lines = f.readlines()
+    with open(dst,"w") as fw:
+        for line in lines:
+            a = line.replace("\t","    ")
+            fw.write(a)
+
+with open("b.txt",mode="r") as f:

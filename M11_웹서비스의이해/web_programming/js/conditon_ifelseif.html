@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condition_ifelseif</title>
+    <script>
+        var date = new Date();
+        var hours = date.getHours();
+
+        if (hours <5) {
+            alert('잠을 자렴');
+        } else if (hours<7) {
+            alert('준비');
+        } else if (hours<9) {
+            alert('출근');
+        } else if (hours<12) {
+            alert('빈둥빈둥');
+        } else if (hours<14){
+            alert('점심시간');
+        } else if (hours<18){
+            console.log('오후 수업');
+        } else if (hours<20){
+            alert('저녁식사');
+        } else if (hours<22){
+            alert('애기 재우기');
+        } else if (hours<24){
+            alert('과제하자');
+        } else alert('자자');
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

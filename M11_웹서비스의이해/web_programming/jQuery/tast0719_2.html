@@ -1,0 +1,48 @@
+<!-- jquery 플러그인을 사용한 사례를 작성하여 출력하세요427p -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masonry</title>
+    <style>
+        * { margin: 0; padding: 0; }
+
+        .box {
+            background: rgb(116, 204, 147);
+            margin: 5px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://masonry.desandro.com/masonry.pkgd.min.js"></script>
+    <script>
+        // 이벤트 연결
+        $(document).ready(function() {
+            //문서 객체 생성
+            for (var i = 0; i < 100; i++) { 
+                $('<div></div>').addClass('box').css({
+                    width: 200,
+                    height: Math.floor(Math.random() * 150) + 50
+                }).appendTo('body');
+            }
+
+            // Masonry 플러그인을 적용합니다.
+            $('body').masonry({
+                // columnWidth: 100
+            });
+        });
+    </script>
+</head>
+<body>
+    <div><img src="0.png"></div>
+    <div><img src="1.png"></div>
+    <div><img src="2.png"></div>
+    <div><img src="3.png"></div>
+    <div><img src="4.png"></div>
+    <div><img src="5.png"></div>
+    <div><img src="6.png"></div>
+    <div><img src="7.png"></div>
+    <div><img src="0716-1.JPG" style="width: 200px; height:" ></div>
+</body>
+</html>
