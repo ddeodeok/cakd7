@@ -1,0 +1,27 @@
+상대도수(relative frequency) = 각 value 값들의 분포현황을 퍼센트함 (0~1)  rel_freq = freq / freq.sum()
+누적상대도수(cumulative relative frequency) = 각 value 값들의 분포현황을 퍼센트를 차례대로 누적해줌 최종값 1(0~1)
+cum_rel_freq = np.cumsum(rel_freq)-------np.cumsum()
+
+편차(deviations) = value - value.mean()
+분산(variance) = np.mean(deviation**2)   %%% np.square(deviations).mean()
+	함수 : np.var(data, ddof=0)
+표준편차 = 분산을 루투 해준게 표준편차
+
+표본분산 ddof = 0 (numpy 기본)
+불편분산 ddof = 1 (pandas 기본)
+
+표준화(standardization) = 데이터에서 평균을 빼고 표준편차(np.std())로 나누는 작업 
+-> 표준화 변량(standardized data) or Z점수(Z-score)
+표준화 데이터 만들기 -> z= 50 + 10(scores - np.mean(scores)) / np.std(scores)
+
+공분산(covariance)  = (A(deviation)*B(deviation) ).mean()
+	함수(Numpy) : np.cov(data1,data2, ddof=0)
+		data1의 covariance = [0,1]
+		data2의 covariance = [1,0]
+
+상관계수(correlation coefficient) 공분산 / 표준편차1*표준편차2
+	수식 : np.cov(data1,data2,ddof=0)[0,1]/(np.std(data1)*np.std(data2)
+
+
+확률변수의 평균(기대값)  
+sum(a확률변수 * a확률,b확률변수*b확률)
