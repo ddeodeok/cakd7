@@ -24,4 +24,4 @@ cum_rel_freq = np.cumsum(rel_freq)-------np.cumsum()
 
 
 확률변수의 평균(기대값)  
-sum(a확률변수 * a확률,b확률변수*b확률)
+sum(a확률변수 * a확률,   b확률변수*b확률)
