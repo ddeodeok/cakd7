@@ -1,0 +1,7 @@
+jdk 설치파일 설치
+관리자 권한으로 아나콘다 프로모트 실행
+
+(base) C:\WINDOWS\system32>conda activate cakd7
+(cakd7) C:\WINDOWS\system32>conda install -c conda-forge jpype1
+Proceed ([y]/n)? y
+(cakd7) C:\WINDOWS\system32>pip install konlpy

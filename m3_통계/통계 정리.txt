@@ -27,6 +27,11 @@ cum_rel_freq = np.cumsum(rel_freq)-------np.cumsum()
 sum(a확률변수 * a확률,   b확률변수*b확률)
 
 
+베르누이 분포 - Bern(p)
+기대값 = p
+분산은 = p(1-p)
+
+
 정규분포 
 파라메타(평균,표준편차)
 
