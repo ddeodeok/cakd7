@@ -1,3 +1,13 @@
+@@@@@@@변수 @@@@@@
+1. 질적변수 - 만족도 설문조사, 혈액형 등...흡연여부.
+2. 양적변수 - 시험점수나, 신장 같은 양
+- 명의척도 (단순 불류를 위한 변수, 학생번호 등)
+- 순서척도 (등수 단,, 4등이 2등의 두배라 할수 없다)
+- 간격 척도 (온도 20도 40도 두배라 할수 없다)
+- 비례 척도 (길이 50센치 100센치)
+
+
+
 상대도수(relative frequency) = 각 value 값들의 분포현황을 퍼센트함 (0~1)  rel_freq = freq / freq.sum()
 누적상대도수(cumulative relative frequency) = 각 value 값들의 분포현황을 퍼센트를 차례대로 누적해줌 최종값 1(0~1)
 cum_rel_freq = np.cumsum(rel_freq)-------np.cumsum()
@@ -8,7 +18,7 @@ cum_rel_freq = np.cumsum(rel_freq)-------np.cumsum()
 표준편차 = 분산을 루투 해준게 표준편차
 
 표본분산 ddof = 0 (numpy 기본)
-불편분산 ddof = 1 (pandas 기본)
+불편분산 ddof = 1 (pandas 기본)  표본뽑아서 하다보니 작아지기때문에 사용
 
 표준화(standardization) = 데이터에서 평균을 빼고 표준편차(np.std())로 나누는 작업 
 -> 표준화 변량(standardized data) or Z점수(Z-score)
@@ -93,4 +103,4 @@ F분포	(분산분석 등에 사용되는 확률분포) 독립인 두개의 카�
 	함수 : scipy.stats.f(n1,n2)
 
 
-
+중심
