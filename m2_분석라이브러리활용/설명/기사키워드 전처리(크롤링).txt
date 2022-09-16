@@ -1,0 +1,27 @@
+from bs4 import BeautifulSoup
+import requests
+
+cats=[264,265,268,267]
+ind=0 # 행 번호
+for cat in cats:
+    for i in range(15):
+        url='https://news.naver.com/main/list.naver?mode=LS2D&sid2='+str(cat)+'sid1=100&mid=shm&date=20220726&page='+str(i+1)       
+        headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36"}
+        news = requests.get(url, headers=headers)
+        bs = BeautifulSoup(news.text,'html.parser')
+        links = bs.select('#main_content > div > ul > li) > dl > dt > a')
+        newslinks=[]
+        for j, a in enumerate(links):
+            newslinks = a.get('href')
+            newslinks.append(newslink)
+            newslinks = list(set(newslinks)) # 셋을 사용하여 중복 기사 제거
+
+        for link in newslinks:
+            res2 = requests.get(link, headers=headers).text
+            bs2 = BeautifulSoup(res2,'html.parser')
+            news = bs2.find('div',id='dic_area').text
+            news = re.sub('\n','',news) # 개행 공백으로
+            news = re.sub('\t','',news) # tab 공백으로
+            news_df.loc[ind] = [news,cat]        
+            ind += 1
+news_df

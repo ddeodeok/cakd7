@@ -1,0 +1,42 @@
+import re
+from konlpy.tag import Okt
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+from collections import Counter
+import seaborn as sns
+from matplotlib import rc
+
+target = df_1['text'].values #배열
+text = target.tolist() # 리스트로 변환
+text = re.sub('[^가-힣]+',' ',str(text))
+print(len(text))
+
+Okt = Okt()
+morph = Okt.pos(text)
+noun_list = []
+for word, tag in morph:
+    if (tag=='Noun') & (len(word) > 1):
+        noun_list.append(word)
+
+one_word = []
+for word, tag in morph:
+    if (tag == 'Noun') & (len(word)==1):
+        one_word.append(word)
+one_dict = dict(Counter(one_word).most_common())
+keys = sorted(one_dict.items(), key=lambda x:x[1], reverse=True)
+
+rc('font',family='Malgun Gothic') # 한글 폰트 설정
+plt.rcParams['axes.unicode_minus'] = False # 마이너스 부호 출력 설정
+count = Counter(noun_list)
+data = dict(count.most_common())
+series = pd.Series(data)
+df = pd.DataFrame(series, columns=['cnt'])
+df10 = df.sort_values(by='cnt',ascending=False)[:10]
+df10.reset_index(inplace=True)
+
+sns.barplot(x='index',y='cnt',data=df10,orient='v')
+
+wordcloud = WordCloud(font_path='../visualization/dataset/malgun.ttf',background_color='white',
+                     colormap='flare',width=2500, height=1000).generate_from_frequencies(data)
+plt.imshow(wordcloud)
+plt.axis('off')
