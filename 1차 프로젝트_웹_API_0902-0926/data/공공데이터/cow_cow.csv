@@ -1,0 +1,348 @@
+id,group,stats,carving_num,age,sensorID_id,empyt_days,birthday,cow_num
+1,calf farm,Pregnancy,1,209,,,,1
+2,second farm,fertilization,0,622,,,,1
+3,third farm,Pregnancy,1,206,,,,3
+4,second farm,Pregnancy,7,364,,,,3
+5,third farm,Pregnancy,1,266,,,,4
+6,second farm,fertilization,0,619,,,,4
+7,third farm,Pregnancy,1,167,,,,5
+8,second farm,fertilization,0,619,,,,5
+9,second farm,fertilization,0,615,,,,6
+10,calf farm,fertilization,1,240,,,,6
+11,second farm,fertilization,1,61,,,,8
+12,first farm,Pregnancy ,0,605,,,,9
+13,calf farm,Pregnancy,1,139,,,,13
+14,calf farm,Pregnancy,1,216,,,,14
+15,calf farm,fertilization,1,106,,,,15
+16,first farm,fertilization,1,73,,,,18
+17,first farm,fertilization,1,126,,,,19
+18,first farm,Pregnancy,1,211,,,,23
+19,third farm,Pregnancy,1,200,,,,24
+20,third farm,Pregnancy,1,177,,,,25
+21,third farm,Pregnancy,1,155,,,,26
+22,second farm,Pregnancy ,0,909,,,,27
+23,second farm,fertilization,0,908,,,,28
+24,third farm,fertilization,1,106,,,,29
+25,third farm,Pregnancy,1,158,,,,30
+26,third farm,fertilization,1,138,,,,34
+27,third farm,fertilization,1,83,,,,36
+28,second farm,fertilization,1,153,,,,41
+29,second farm,Pregnancy ,0,859,,,,44
+30,second farm, preparation for pregnancy,1,47,10,,,46
+31,third farm,fertilization,1,145,,,,47
+32,third farm,recent delivery,1,3,,,,50
+33,third farm,recent delivery,1,19,,,,52
+34,third farm,recent delivery,1,14,,,,53
+35,third farm,recent delivery,1,13,,,,54
+36,second farm, preparation for pregnancy,1,36,11,,,56
+37,first farm, preparation for pregnancy,1,36,12,,,57
+38,first farm,Pregnancy ,0,847,,,,59
+39,second farm,Pregnancy ,0,831,,,,66
+40,second farm,Pregnancy ,0,813,,,,71
+41,second farm,Pregnancy ,0,811,,,,72
+42,calf farm,Pregnancy ,0,804,,,,75
+43,first farm,Pregnancy ,0,768,,,,83
+44,first farm,Pregnancy ,0,729,,,,85
+45,second farm,Pregnancy ,0,714,,,,87
+46,second farm,Pregnancy ,0,706,,,,92
+47,third farm,Pregnancy ,0,702,,,,93
+48,second farm,Pregnancy ,0,678,,,,100
+49,second farm,Pregnancy ,0,678,,,,101
+50,second farm,fertilization,0,652,,,,102
+51,first farm,Pregnancy ,0,649,,,,103
+52,second farm,fertilization,0,639,,,,107
+53,first farm,Pregnancy ,0,639,,,,108
+54,second farm,fertilization,0,637,,,,109
+55,first farm,Pregnancy ,0,605,,,,110
+56,second farm,fertilization,0,626,,,,110
+57,first farm, preparation for pregnancy,0,239,,,,112
+58,second farm,fertilization,0,604,,,,114
+59,second farm,fertilization,0,601,,,,115
+60,second farm,fertilization,0,592,,,,119
+61,third farm,fertilization,0,592,,,,120
+62,calf farm, preparation for pregnancy,0,591,,,,121
+63,third farm,fertilization,0,587,,,,123
+64,third farm, preparation for pregnancy,0,586,,,,125
+65,calf farm, preparation for pregnancy,0,582,,,,126
+66,calf farm, preparation for pregnancy,0,565,,,,131
+67,second farm, preparation for pregnancy,0,560,,,,132
+68,calf farm, preparation for pregnancy,0,558,,,,133
+69,second farm,fertilization,0,616,,,,201
+70,calf farm,Pregnancy,1,219,,,,205
+71,calf farm,Pregnancy ,0,789,,,,262
+72,calf farm,Pregnancy ,0,778,,,,271
+73,third farm,fertilization,6,109,,,,1051
+74,third farm,fertilization,8,186,,,,1054
+75,first farm,Pregnancy,7,302,,,,1067
+76,first farm,fertilization,9,148,,,,1093
+77,third farm,Pregnancy,7,248,,,,1099
+78,calf farm,Pregnancy,8,236,,,,1123
+79,third farm,Pregnancy,8,168,,,,1141
+80,second farm,Pregnancy,8,370,,,,1143
+81,second farm,fertilization,8,61,,,,1189
+82,first farm,Pregnancy,8,340,,,,1196
+83,first farm,Pregnancy,8,278,,,,1504
+84,second farm,Pregnancy,7,328,,,,2017
+85,third farm,fertilization,8,145,,,,2018
+86,third farm,fertilization,8,190,,,,2028
+87,third farm,Pregnancy,8,157,,,,2039
+88,third farm,Pregnancy,8,252,,,,2053
+89,third farm,Pregnancy,7,249,,,,2054
+90,second farm,recent delivery,8,8,,,,2055
+91,second farm,Pregnancy,7,433,,,,2056
+92,second farm, preparation for pregnancy,6,64,,,,3022
+93,second farm, preparation for pregnancy,6,87,13,,,3026
+94,calf farm,Pregnancy,7,244,,,,3038
+95,first farm,fertilization,5,454,,,,3040
+96,third farm,fertilization,7,131,,,,3047
+97,second farm,Pregnancy,7,353,,,,3061
+98,second farm,Pregnancy,6,403,,,,3064
+99,first farm,fertilization,6,131,,,,3067
+100,third farm,Pregnancy,6,258,,,,3071
+101,third farm,Pregnancy,5,193,,,,3072
+102,first farm,Pregnancy,7,148,,,,3100
+103,calf farm,Pregnancy,7,273,,,,3105
+104,first farm, preparation for pregnancy,8,126,14,,,3111
+105,second farm,Pregnancy,7,432,,,,3112
+106,third farm, preparation for pregnancy,8,44,15,,,3114
+107,second farm,recent delivery,7,24,,,,3122
+108,second farm,Pregnancy,7,315,,,,3127
+109,second farm,fertilization,7,90,,,,3134
+110,second farm,Pregnancy,6,355,,,,3141
+111,first farm,Pregnancy,7,220,,,,3517
+112,third farm,Pregnancy,6,254,,,,3902
+113,third farm,Pregnancy,7,235,,,,3906
+114,first farm,recent delivery,7,1,,,,4016
+115,second farm,recent delivery,7,8,,,,4021
+116,third farm,fertilization,7,109,,,,4025
+117,third farm,recent delivery,7,29,,,,4026
+118,first farm,Pregnancy,6,483,,,,4027
+119,second farm,Pregnancy,5,437,,,,4029
+120,first farm,Pregnancy,5,316,,,,4031
+121,calf farm,Pregnancy,6,150,,,,4033
+122,second farm,recent delivery,7,7,,,,4038
+123,second farm,Pregnancy,6,337,,,,4039
+124,calf farm,Pregnancy,6,185,,,,4047
+125,third farm,Pregnancy,6,239,,,,4049
+126,third farm,Pregnancy,6,206,,,,4050
+127,second farm, preparation for pregnancy,6,40,,,,4051
+128,second farm,fertilization,5,78,,,,4052
+129,third farm,fertilization,6,140,,,,4054
+130,third farm,Pregnancy,5,256,,,,4055
+131,third farm,Pregnancy,4,277,,,,4058
+132,second farm,Pregnancy,5,322,,,,4060
+133,second farm,Pregnancy,6,345,,,,4061
+134,calf farm,Pregnancy,5,348,,,,4062
+135,third farm,fertilization,6,116,,,,4066
+136,calf farm,recent delivery,6,27,,,,4068
+137,first farm,Pregnancy,5,228,,,,4069
+138,third farm,Pregnancy,5,275,,,,4070
+139,second farm,recent delivery,5,22,,,,4072
+140,second farm,Pregnancy,4,336,,,,4073
+141,second farm,Pregnancy,5,325,,,,4074
+142,first farm,fertilization,6,98,,,,4078
+143,third farm,fertilization,7,206,,,,5001
+144,second farm,Pregnancy,4,439,,,,5006
+145,third farm,Pregnancy,6,161,,,,5007
+146,first farm,fertilization,5,152,,,,5011
+147,first farm,Pregnancy,5,203,,,,5014
+148,third farm,Pregnancy,6,215,,,,5016
+149,first farm,fertilization,6,101,,,,5017
+150,first farm,fertilization,5,97,,,,5018
+151,second farm,fertilization,6,61,,,,5019
+152,third farm, preparation for pregnancy,5,114,16,,,5025
+153,third farm,fertilization,6,149,,,,5027
+154,second farm,recent delivery,6,13,,,,5030
+155,third farm,fertilization,6,204,,,,5031
+156,calf farm,fertilization,5,206,,,,5032
+157,third farm,Pregnancy,5,245,,,,5033
+158,third farm, preparation for pregnancy,4,189,17,,,5036
+159,second farm,Pregnancy,5,316,,,,5041
+160,third farm,fertilization,5,207,,,,5046
+161,second farm,fertilization,5,73,,,,5048
+162,calf farm,Pregnancy,4,257,,,,5055
+163,calf farm,Pregnancy,4,165,,,,5057
+164,third farm,Pregnancy,5,254,,,,5061
+165,third farm,Pregnancy,5,260,,,,5066
+166,third farm,fertilization,5,162,,,,5069
+167,third farm,fertilization,4,260,,,,5076
+168,second farm,fertilization,5,75,,,,5082
+169,calf farm,Pregnancy,4,220,,,,5085
+170,calf farm,Pregnancy,5,135,,,,5088
+171,third farm,Pregnancy,4,456,,,,5089
+172,third farm, preparation for pregnancy,5,64,18,,,5090
+173,second farm, preparation for pregnancy,6,97,19,,,5216
+174,third farm,Pregnancy,3,173,,,,5280
+175,third farm,Pregnancy,4,192,,,,6001
+176,third farm,Pregnancy,4,167,,,,6002
+177,third farm, preparation for pregnancy,5,88,001A,,,6006
+178,third farm,Pregnancy,4,187,,,,6007
+179,third farm,Pregnancy,3,187,,,,6010
+180,first farm,Pregnancy,4,291,,,,6013
+181,second farm, preparation for pregnancy,4,94,001B,,,6031
+182,third farm,Pregnancy,4,186,,,,6033
+183,second farm, preparation for pregnancy,5,91,001C,,,6034
+184,calf farm,fertilization,3,155,,,,6036
+185,third farm, preparation for pregnancy,5,71,001D,,,6039
+186,third farm,fertilization,4,153,,,,6041
+187,third farm,Pregnancy,4,180,,,,6042
+188,third farm,Pregnancy,4,212,,,,6047
+189,third farm,Pregnancy,4,248,,,,6052
+190,second farm,Pregnancy,3,385,,,,6056
+191,second farm,fertilization,5,61,,,,6057
+192,calf farm,recent delivery,4,32,,,,6065
+193,third farm,Pregnancy,4,238,,,,6068
+194,third farm,fertilization,4,177,,,,6069
+195,first farm,Pregnancy,4,169,,,,6070
+196,third farm,Pregnancy,4,222,,,,6073
+197,first farm,Pregnancy,4,110,,,,6077
+198,calf farm,fertilization,4,104,,,,6078
+199,second farm,Pregnancy,3,281,,,,6079
+200,second farm,fertilization,4,143,,,,6080
+201,third farm,fertilization,9,150,,,,6084
+202,third farm,fertilization,4,152,,,,7006
+203,third farm, preparation for pregnancy,4,135,001E,,,7007
+204,third farm,Pregnancy,4,234,,,,7008
+205,second farm, preparation for pregnancy,3,36,,,,7009
+206,third farm,Pregnancy,4,187,,,,7010
+207,third farm,Pregnancy,4,183,,,,7011
+208,calf farm, preparation for pregnancy,3,39,,,,7015
+209,second farm,Pregnancy,3,344,,,,7019
+210,first farm,fertilization,4,192,,,,7020
+211,third farm, preparation for pregnancy,4,138,,,,7026
+212,second farm,recent delivery,4,24,,,,7029
+213,second farm,Pregnancy,3,344,,,,7032
+214,second farm,recent delivery,4,31,,,,7035
+215,first farm,Pregnancy,3,280,,,,7036
+216,first farm,Pregnancy,3,150,,,,7039
+217,third farm, preparation for pregnancy,3,110,,,,7041
+218,third farm,fertilization,3,135,,,,7043
+219,third farm,Pregnancy,4,135,,,,7045
+220,third farm,fertilization,4,115,,,,7046
+221,third farm,fertilization,4,132,,,,7047
+222,second farm,Pregnancy,3,334,,,,7049
+223,second farm, preparation for pregnancy,4,75,,,,7052
+224,second farm,Pregnancy,2,360,,,,7062
+225,third farm,fertilization,4,102,,,,7063
+226,first farm,Pregnancy,3,249,,,,7064
+227,second farm, preparation for pregnancy,5,78,,,,7073
+228,third farm,fertilization,2,228,,,,7074
+229,third farm,Pregnancy,3,255,,,,7075
+230,second farm,Pregnancy,3,321,,,,7084
+231,third farm,Pregnancy,3,202,,,,7088
+232,first farm,Pregnancy,3,286,,,,7090
+233,third farm,Pregnancy,3,204,,,,7091
+234,second farm,Pregnancy,2,406,,,,7092
+235,second farm,Pregnancy,3,283,,,,7093
+236,second farm,fertilization,3,76,,,,7100
+237,third farm,Pregnancy,3,230,,,,7204
+238,second farm, preparation for pregnancy,4,61,,,,7210
+239,second farm,Pregnancy,2,323,,,,8015
+240,third farm,Pregnancy,3,195,,,,8018
+241,third farm,Pregnancy,3,158,,,,8021
+242,calf farm, preparation for pregnancy,3,163,,,,8024
+243,second farm,recent delivery,2,34,,,,8027
+244,second farm,fertilization,3,76,,,,8029
+245,first farm,fertilization,3,116,,,,8031
+246,third farm,fertilization,3,166,,,,8032
+247,third farm,Pregnancy,4,466,,,,8035
+248,second farm,recent delivery,3,1,,,,8037
+249,second farm,fertilization,3,83,,,,8039
+250,first farm,Pregnancy,2,246,,,,8040
+251,calf farm,fertilization,3,98,,,,8042
+252,third farm,Pregnancy,2,233,,,,8045
+253,second farm,Pregnancy,2,368,,,,8046
+254,calf farm, preparation for pregnancy,2,162,,,,8048
+255,second farm,recent delivery,3,25,,,,8051
+256,second farm, preparation for pregnancy,2,59,,,,8052
+257,second farm, preparation for pregnancy,3,81,,,,8054
+258,second farm, preparation for pregnancy,3,41,,,,8055
+259,second farm, preparation for pregnancy,3,59,,,,8056
+260,second farm, preparation for pregnancy,3,69,,,,8058
+261,second farm,Pregnancy,2,309,,,,8059
+262,second farm, preparation for pregnancy,3,50,,,,8060
+263,first farm,Pregnancy,2,293,,,,8063
+264,third farm,Pregnancy,2,276,,,,8064
+265,second farm, preparation for pregnancy,2,64,,,,8065
+266,second farm,fertilization,2,317,,,,8066
+267,first farm,Pregnancy,2,284,,,,8069
+268,third farm, preparation for pregnancy,3,41,,,,8071
+269,second farm,Pregnancy,2,309,,,,8072
+270,second farm, preparation for pregnancy,3,48,,,,8073
+271,third farm,Pregnancy,2,267,,,,8074
+272,calf farm,Pregnancy,2,241,,,,8076
+273,second farm,fertilization,3,106,,,,8078
+274,second farm,fertilization,3,69,,,,8080
+275,third farm,Pregnancy,2,248,,,,8083
+276,second farm,Pregnancy,2,324,,,,8086
+277,calf farm,Pregnancy,2,181,,,,8087
+278,second farm,Pregnancy,2,313,,,,8089
+279,third farm,Pregnancy,2,253,,,,8090
+280,third farm,Pregnancy,2,275,,,,8091
+281,calf farm,Pregnancy,2,257,,,,8092
+282,second farm,fertilization,2,360,,,,8093
+283,second farm,Pregnancy,10,371,,,,8094
+284,first farm,Pregnancy,2,288,,,,8096
+285,second farm,fertilization,2,69,,,,8097
+286,second farm,Pregnancy,2,305,,,,8098
+287,second farm,Pregnancy,2,316,,,,8100
+288,second farm,Pregnancy,2,314,,,,8101
+289,third farm,fertilization,2,195,,,,8102
+290,third farm,Pregnancy,2,258,,,,8104
+291,second farm,Pregnancy,2,299,,,,8105
+292,second farm,Pregnancy,2,331,,,,8288
+293,second farm,Pregnancy,2,299,,,,8312
+294,third farm,Pregnancy,2,268,,,,9000
+295,third farm,Pregnancy,2,218,,,,9001
+296,third farm,fertilization,2,238,,,,9002
+297,second farm,Pregnancy,2,318,,,,9003
+298,third farm,Pregnancy,2,221,,,,9010
+299,third farm,Pregnancy,2,150,,,,9012
+300,third farm,Pregnancy,2,163,,,,9013
+301,first farm,Pregnancy,2,188,,,,9018
+302,first farm,Pregnancy,2,202,,,,9019
+303,first farm,Pregnancy,2,117,,,,9022
+304,first farm,recent delivery,2,30,,,,9028
+305,second farm, preparation for pregnancy,2,38,,,,9030
+306,second farm,fertilization,2,87,,,,9031
+307,second farm,fertilization,2,82,,,,9035
+308,second farm, preparation for pregnancy,2,45,,,,9038
+309,second farm,Pregnancy,1,432,,,,9039
+310,second farm,fertilization,2,66,,,,9046
+311,second farm,Pregnancy,1,357,,,,9048
+312,second farm, preparation for pregnancy,2,57,,,,9050
+313,second farm,Pregnancy,1,396,,,,9051
+314,second farm,Pregnancy,1,421,,,,9052
+315,second farm,Pregnancy,1,367,,,,9055
+316,second farm,Pregnancy,1,409,,,,9056
+317,second farm,recent delivery,2,20,,,,9057
+318,second farm,Pregnancy,1,428,,,,9059
+319,second farm,Pregnancy,1,324,,,,9063
+320,second farm, preparation for pregnancy,2,41,,,,9064
+321,second farm,Pregnancy,1,302,,,,9066
+322,second farm,Pregnancy,1,283,,,,9068
+323,second farm,Pregnancy,1,369,,,,9077
+324,second farm,Pregnancy,1,349,,,,9078
+325,second farm,Pregnancy,1,309,,,,9080
+326,third farm,Pregnancy,1,180,,,,9083
+327,third farm,Pregnancy,1,257,,,,9089
+328,third farm,Pregnancy,1,293,,,,9093
+329,second farm,recent delivery,2,15,,,,9094
+330,calf farm,Pregnancy,1,264,,,,9100
+331,third farm,Pregnancy,1,291,,,,9103
+332,third farm,Pregnancy,2,241,,,,9216
+333,third farm,fertilization,2,148,,,,9221
+334,first farm, preparation for pregnancy,2,42,,,,9222
+335,third farm,Pregnancy,2,187,,,,9235
+336,first farm,Pregnancy,2,140,,,,9242
+337,second farm,Pregnancy,1,404,,,,9258
+338,second farm,recent delivery,2,28,,,,9291
+339,third farm,Pregnancy,9,261,,,,10147
+340,second farm,recent delivery,12,5,,,,80530
+341,second farm,fertilization,0,619,,,,003B
+342,third farm, preparation for pregnancy,0,533,,,,A140
+343,second farm, preparation for pregnancy,0,527,,,,A142
+344,second farm, preparation for pregnancy,0,527,,,,A143
+345,calf farm, preparation for pregnancy,0,526,,,,A144
+346,calf farm, preparation for pregnancy,0,525,,,,A146
+347,second farm, preparation for pregnancy,0,505,,,,A157
